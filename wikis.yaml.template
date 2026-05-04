@@ -1,0 +1,4 @@
+wikis:
+  - id: mwstake
+    url: {{wiki_url_mwstake}}
+    name: "mwstake"
