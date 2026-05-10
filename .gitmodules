@@ -1,0 +1,6 @@
+[submodule "extensions/QRLite"]
+	path = extensions/QRLite
+	url = https://github.com/gesinn-it/QRLite
+[submodule "extensions/MatomoAnalytics"]
+	path = extensions/MatomoAnalytics
+	url = https://github.com/miraheze/MatomoAnalytics
