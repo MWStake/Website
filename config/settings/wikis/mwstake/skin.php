@@ -1,0 +1,3 @@
+<?php
+
+$wgDefaultSkin = 'chameleon';
