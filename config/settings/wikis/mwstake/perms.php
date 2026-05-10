@@ -1,0 +1,3 @@
+<?php
+
+$wgGroupPermissions['*']['read'] = true;
