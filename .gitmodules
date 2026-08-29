@@ -4,3 +4,23 @@
 [submodule "extensions/MatomoAnalytics"]
 	path = extensions/MatomoAnalytics
 	url = https://github.com/miraheze/MatomoAnalytics
+[submodule "extensions/HitCounters"]
+	path = extensions/HitCounters
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/HitCounters
+	branch = REL1_43
+[submodule "extensions/HierarchyBuilder"]
+	path = extensions/HierarchyBuilder
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/HierarchyBuilder
+	branch = REL1_43
+[submodule "extensions/JSBreadCrumbs"]
+	path = extensions/JSBreadCrumbs
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/JSBreadCrumbs
+	branch = REL1_43
+[submodule "extensions/PipeEscape"]
+	path = extensions/PipeEscape
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PipeEscape
+	branch = REL1_43
+[submodule "extensions/SemanticRating"]
+	path = extensions/SemanticRating
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SemanticRating
+	branch = REL1_43
