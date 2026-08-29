@@ -31,7 +31,7 @@ $mwOAuthConsumers = [
     // mediawiki.org OAuth 2.0 consumer (key 58d2f224…). Callback registered at
     // https://meta.wikiapiary.com/wiki/Special:PluggableAuthLogin
     "meta.wikiapiary.com" => [ "58d2f224fbbfefcfad74ee7e30787efe", $wgOAuthMediaWikiClientSecret ],
-    "dev.mwstake.org"     => [ "", "" ], // TODO: add dev.mwstake.org consumer key/secret
+	"dev.mwstake.org"     => [ "58bfeda6e492f688f6f9647adcb3a8c0", $wgOAuthMediaWikiDevClientSecret ],
 ];
 $consumer = $mwOAuthConsumers[ $host ] ?? [ "", "" ];
 if ( $consumer[0] !== "" ) {
