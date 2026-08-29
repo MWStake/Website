@@ -1,1 +1,2 @@
 hosts/** filter=git-crypt diff=git-crypt
+config/settings/global/secrets-oauth.php filter=git-crypt diff=git-crypt
