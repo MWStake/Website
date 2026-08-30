@@ -39,6 +39,7 @@ if ( $consumer[0] !== "" ) {
         "plugin" => "WSOAuth",
         "data" => [
             "type" => "mediawiki2",
+            "scope" => "openid email profile",
             "clientId" => $consumer[0],
             "clientSecret" => $consumer[1],
             "redirectUri" => "https://" . $host . "/wiki/Special:PluggableAuthLogin",
