@@ -6,8 +6,8 @@ $wgDefaultSkin = 'vector';
 
 // Logo and favicon (matches mwstake.org)
 $wgLogos = [
-    '1x' => "$wgScriptPath/public_assets/logo.png",
-    'icon' => "$wgScriptPath/public_assets/logo.png",
+    '1x' => "$wgScriptPath/public_assets/logo-dev.png",
+    'icon' => "$wgScriptPath/public_assets/logo-dev.png",
 ];
 $wgFavicon = "$wgScriptPath/public_assets/favicon.ico";
 
