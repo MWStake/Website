@@ -1,1 +1,2 @@
 hosts/** filter=git-crypt diff=git-crypt merge=canasta-gitcrypt
+config/settings/wikis/**/60-oauth2-keys.php filter=git-crypt diff=git-crypt merge=canasta-gitcrypt
