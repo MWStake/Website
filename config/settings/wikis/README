@@ -1,0 +1,75 @@
+# Per-Wiki Settings Directory
+
+Per-wiki settings live in subdirectories named after the wiki ID:
+
+    config/settings/wikis/<wiki-id>/
+
+Each wiki's directory is loaded automatically in lexicographic order, AFTER
+global settings. For example, settings for the wiki with ID `docs` go in:
+
+    config/settings/wikis/docs/
+
+The parent `config/settings/wikis/` directory itself contains no PHP files —
+it only holds the per-wiki subdirectories (and this README). Files placed
+directly in `config/settings/wikis/` are NOT loaded. Each wiki's directory is
+created automatically when the wiki is created.
+
+## Load Order
+
+All .php files in a wiki's directory are loaded automatically in lexicographic
+order. You can optionally use numeric prefixes to control load order:
+
+    10-first.php   # Loaded first (within this wiki's directory)
+    50-logo.php    # Loaded in the middle
+    90-final.php   # Loaded last (final overrides)
+
+But plain names work fine:
+
+    config/settings/wikis/docs/Logo.php
+    config/settings/wikis/docs/Permissions.php
+
+## What to Configure Here
+
+- Wiki-specific $wgLanguageCode
+- Wiki-specific $wgLogo
+- Wiki-specific extensions or skins (wfLoadExtension, wfLoadSkin)
+- Any setting that should differ from global defaults
+
+## Variables Set Automatically
+
+Do NOT set these here unless you need to override the default:
+
+- $wgDBname — set to the wiki ID (do NOT override)
+- $wgServer — set from the wiki's URL (do NOT override)
+- $wgSitename — set from the wiki's "name" field in wikis.yaml (do NOT override;
+  change the "name" field in wikis.yaml instead)
+- $wgMetaNamespace — derived from the display name with spaces replaced by
+  underscores; override here if you want a different Project namespace name
+
+## Global Settings
+
+For settings that apply to ALL wikis, add files to:
+
+    config/settings/global/
+
+## Host-Local Overrides (GitOps, Docker Compose)
+
+On a GitOps-managed instance every file here is shared with the other hosts in
+the repo. For settings that must apply on THIS host only, name the file with a
+.local.php suffix:
+
+    zz-debug.local.php
+
+Files matching *.local.php are ignored by git, so they stay on this host, are
+never pushed to the other hosts, and never block a `canasta gitops pull`.
+Loading is still lexicographic and the suffix alone does not sort last, so give
+a local override a name that sorts after the shared file it overrides. See
+config/settings/global/README for the full convention (Docker Compose only).
+
+## Notes
+
+- All .php files in a wiki's directory are loaded automatically
+- Per-wiki settings override global settings with the same variable
+- Files without the .php extension (like this README) are ignored
+- Files placed directly in config/settings/wikis/ (not in a <wiki-id>
+  subdirectory) are NOT loaded

@@ -1,0 +1,27 @@
+{
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "extensions/AbuseFilter/composer.json",
+                "extensions/AntiSpoof/composer.json",
+                "extensions/AWS/composer.json",
+                "extensions/Bootstrap/composer.json",
+                "extensions/CirrusSearch/composer.json",
+                "extensions/DataTransfer/composer.json",
+                "extensions/Elastica/composer.json",
+                "extensions/GoogleAnalyticsMetrics/composer.json",
+                "extensions/Maps/composer.json",
+                "extensions/MassMessageEmail/composer.json",
+                "extensions/OATHAuth/composer.json",
+                "extensions/OpenIDConnect/composer.json",
+                "extensions/SemanticMediaWiki/composer.json",
+                "extensions/SemanticResultFormats/composer.json",
+                "extensions/TemplateStyles/composer.json",
+                "extensions/TimedMediaHandler/composer.json",
+                "extensions/Widgets/composer.json",
+                "extensions/WSOAuth/composer.json",
+                "skins/chameleon/composer.json"
+            ]
+        }
+    }
+}

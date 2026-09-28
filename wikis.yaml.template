@@ -1,0 +1,7 @@
+wikis:
+- id: meta
+  url: {{wiki_url_meta}}
+  name: "meta"
+- id: dev
+  url: {{wiki_url_dev}}
+  name: "dev"
