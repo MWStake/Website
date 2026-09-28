@@ -1,6 +1,16 @@
 <?php
 // Configuration copied from mwstake.org LocalSetttings.php (non-sensitive settings).
 
+// Skin (matches mwstake.org which uses legacy Vector)
+$wgDefaultSkin = 'vector';
+
+// Logo and favicon (matches mwstake.org)
+$wgLogos = [
+    '1x' => "$wgScriptPath/public_assets/logo.png",
+    'icon' => "$wgScriptPath/public_assets/logo.png",
+];
+$wgFavicon = "$wgScriptPath/public_assets/favicon.ico";
+
 // CirrusSearch
 $wgSearchType = 'CirrusSearch';
 $wgCirrusSearchServers = [ 'elasticsearch' ];
