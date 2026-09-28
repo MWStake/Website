@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"0x010C",
+			"Gomoko",
+			"Lucky",
+			"Pols12",
+			"TomT0m",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"hierarchybuilder-desc": "Affiche et permet la modification et la sélection à partir des hiérarchies de pages",
+	"hierarchybuilder-reveal-editmessage": "Comment puis-je l’utiliser ?",
+	"hierarchybuilder-editmessage": "La liste de la racine de hiérarchie contient la hiérarchie qui sera conservée lors de l’enregistrement. La liste des pages non utilisées contient les pages de la catégorie $1 qui ne sont pas actuellement dans la hiérarchie. Vous pouvez réorganiser la liste de la racine hiérarchique en déplaçant les lignes vers le haut ou vers le bas ou bien en modifiant leur indentation. Vous pouvez ajouter des pages de la liste des pages inutilisées à la hiérarchie, en les faisant glisser et en les déposant là où vous le souhaitez à dans la liste de la racine de hiérarchie. Vous pouvez supprimer les pages de la hiérarchie en les faisant glisser depuis la liste de la racine de hiérarchie et en les déposant n’importe où dans la liste des pages inutilisées.",
+	"hierarchybuilder-edit-error-message": "Cette hiérarchie ne peut pas être modifiée car la hiérarchie des données et la catégorie dans laquelle il faut retirer les pages inutilisées sont toutes les deux vides. Veuillez vous assurer qu’au moins une de ces sources de données est renseignée.",
+	"hierarchybuilder-hierarchyroot": "Racine de hiérarchie",
+	"hierarchybuilder-unusedpages": "Pages inutilisées",
+	"hierarchybuilder-category-desc": "C’est la catégorie à laquelle les pages dans la hiérarchie doivent appartenir.",
+	"hierarchybuilder-missing-category": "L’argument du nom de catégorie est manquant.",
+	"hierarchybuilder-hierarchy-desc": "Ceci est une hiérarchie au format wikicode.",
+	"hierarchybuilder-pagename-desc": "C’est le nom de la page contenant la hiérarchie.",
+	"hierarchybuilder-propertyname-desc": "C’est le nom de la propriété contenant la hiérarchie.",
+	"hierarchybuilder-collapsed-desc": "Si ce paramètre est fourni, la hiérarchie doit être réduite lorsqu’elle est affichée la première fois.",
+	"hierarchybuilder-missing-page-name": "L’argument du nom de page est manquant.",
+	"hierarchybuilder-missing-property-name": "L’argument du nom de propriété est manquant.",
+	"hierarchybuilder-invalid-collapsed": "La valeur de l’argument réduit n’est pas valide."
+}

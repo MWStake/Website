@@ -1,3 +1,35 @@
 # Canasta will add and remove lines from this file as extensions and skins are enabled and disabled.
 extensions:
+- AdvancedSearch
+- Arrays
+- CirrusSearch
+- Cite
+- CodeEditor
+- DataTransfer
+- DisplayTitle
+- Elastica
+- HeaderFooter
+- HeaderTabs
+- Interwiki
+- LabeledSectionTransclusion
+- Lockdown
+- MagicNoCache
 - OAuth
+- OpenIDConnect
+- PageForms
+- ParserFunctions
+- PluggableAuth
+- ReplaceText
+- Scribunto
+- SemanticExtraSpecialProperties
+- SemanticMediaWiki
+- SemanticResultFormats
+- SimpleMathJax
+- SyntaxHighlight_GeSHi
+- UrlGetParameters
+- UserFunctions
+- UserMerge
+- Variables
+- VisualEditor
+- Widgets
+- WikiEditor

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Yona b"
+		]
+	},
+	"titleicon-desc": "מציג את הסמליל בכותרת הדפים ובתוצאות החיפוש",
+	"apihelp-query+titleicons-summary": "החזרת סמלי כותרת של הדפים הנתונים.",
+	"apihelp-query+titleicons-example": "קבלת סמלי כותרת של העמוד הראשי"
+}

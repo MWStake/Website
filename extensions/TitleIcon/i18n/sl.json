@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"titleicon-desc": "Prikaže ikono v naslovu na straneh in v iskalnih zadetkih",
+	"apihelp-query+titleicons-summary": "Vrne naslovne ikone danih strani.",
+	"apihelp-query+titleicons-example": "Pridobi naslovne ikone glavne strani"
+}

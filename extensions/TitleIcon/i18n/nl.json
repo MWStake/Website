@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie",
+			"Siebrand"
+		]
+	},
+	"titleicon-desc": "Geeft een pictogram weer in de naam van pagina's en in zoekresultaten",
+	"apihelp-query+titleicons-summary": "Stuurt de titelpictogrammen van de opgegeven pagina’s terug.",
+	"apihelp-query+titleicons-example": "Titelpictogrammen van de hoofdpagina opvragen"
+}

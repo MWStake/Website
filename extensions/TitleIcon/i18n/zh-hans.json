@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"LittlePaw365",
+			"Yfdyh000",
+			"Zhang8569"
+		]
+	},
+	"titleicon-desc": "在页面上和搜索结果内的标题内显示图标",
+	"apihelp-query+titleicons-summary": "返回给定页面的标题图标。",
+	"apihelp-query+titleicons-example": "获取首页的标题图标。"
+}
