@@ -68,3 +68,8 @@ $sespgEnabledPropertyList = [
     '_USERRIGHT',
     '_USERGROUP'
 ];
+
+// Temporary debug logging for login issues
+$wgShowExceptionDetails = true;
+$wgShowDBErrorBacktrace = true;
+$wgDebugLogFile = "/var/log/mediawiki/debug-login.log";
